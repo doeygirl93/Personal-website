@@ -13,7 +13,7 @@ export const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
     return (
-        <header className=" fixed top-0 left-0 right-0 bg-transparent py-5">
+        <header className=" z-50 fixed top-0 left-0 right-0 bg-transparent py-5">
 
         <nav className="container mx-auto px-6 flex intems-center justify-between">
 
