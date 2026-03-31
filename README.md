@@ -1,1 +1,8 @@
-ok so i lowk forgot to change the readme from the default react vite read me or whatever. BUT THIS IS MY PERSONAL WEBSTIE. and its kinda peak. First kinda big react/tailwind project this is mainly just so i can get started on another react project for a ysws but i didn't wana mess that one up so i'm making this messup up portfiolol LOL. Fun fact i had a nother one of these but i spent litteerly 2 hours debugging until i just restarted and this on magically works!!
+# Personal website
+## Overveiw
+This is my personal websitet! This is where I will show all my projects, wins, thoughts and opinions! Its very much peak. Its my first kind of big react/tailwind project and I'm using this as a foundation to consolotidate my front end development before moving ontop bigger projects. 
+
+### Tech stack
+React
+Vite
+TailwindCSS
