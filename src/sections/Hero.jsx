@@ -2,71 +2,45 @@
 
 export const Hero = () => {
     return (
-        <section className="relative min-h-screen flex items-center overflow-hidden">
-            {/* background */}
-            <div className="absolute inset-0 z-0">
-                <img 
-                src="/bisexual-city.jpg" 
-                alt="Hero img" 
-                className="w-full h-full object-cover opacity-90 blur-[4px]"
-                />
-
-                <div className="absolute inset-0 bg-linear-to-b from-bg/40 via-bg/10 to-bg/90" />
-
-            </div>
-            {/* fancy ahh dots*/}
-
-            <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                {[...Array(50)].map((_, i) =>(
-                <div 
-                className="absolute w-1 h-1 rounded-full opacity-60 "
-                
-                style={{
-                    backgroundColor: "#E0B0FF",
-                    left: `${Math.random() * 100}%`,
-                    top: `${Math.random() * 100}%`,
-                    animation: `slow-drift ${30 + Math.random() * 20}s ease-in-out infinite`,
-                    animationDelay: `${Math.random() * 5}s`
-
-
-                }}
-                />
-
-                ))}
-            </div>
-
-
+        <section className="relative w-full flex items-center overflow-hidden p-30 ">
+           
             {/* content */}
-            <div>
-                <div>
-                {/* Left col (basicaly the text section)*/}
-                <div>
-                    <div>
-
-                    </div>
-
-                </div>
-
-
-
+            <div className="grid grid-cols-[1fr_2fr] gap-8 relative z-10 mx-auto">
                 {/*Right col (my cute ahh pfp) */}
-                <div className="relative animate-fade-in animation-delay-300">
+                <div className=" justify-center relative animate-fade-in animation-delay-300">
                     {/* pfp */}
-                    <div className="relative max-w-md mx-auto">
-                        <div className="relative glass rounded-3xl p-2">
+                    <div className=" p-4">
+                            <h1 className="text-7xl font-bold text-white/85">DoeyGirl</h1>
+                            </div>
+                    <div className="relative glass rounded-3xl p-2">
                             <img src="/pfp.jpg" alt="DOeyGirl's pfp" className=" w-full aspect-[4/5] object-cover rounded-2xl"/>
+                        <div className="relative max-w-md mx-auto">
                         </div>
+                        <p className="text-lg text-white/60 mt-4 mx-1 text-center">
+                                Welcome to my portfolio! I'm a passionate developer and designer.
+                            </p>
+                    </div>
+                    
+
+                    
+
+                </div>
+                
+                
+                {/* Left col (basicaly the text section)*/}
+                <div className="relative border-2 border-amber-100 rounded-2xl">
+                    <img src="/me.jpg" 
+                    alt="Hero img" 
+                    className="w-full h-full object-cover opacity-50 blur-[6px] transition-opacity duration-300 hover:opacity-20"/>
+                        </div>
+                        
                     </div>
 
-
-                </div>
-
-
-                </div>
+             
 
 
-            </div>
 
+        
         </section>
     );
 };
