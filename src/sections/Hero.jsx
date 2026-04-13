@@ -13,7 +13,7 @@ export const Hero = () => {
                             <h1 className="text-7xl font-bold text-white/85">DoeyGirl</h1>
                             </div>
                     <div className="relative glass rounded-3xl p-2">
-                            <img src="/pfp.jpg" alt="DOeyGirl's pfp" className=" w-full aspect-[4/5] object-cover rounded-2xl duration-500 hover:scale-101"/>
+                            <img src="pfp.jpg" alt="DOeyGirl's pfp" className=" w-full aspect-[4/5] object-cover rounded-2xl duration-500 hover:scale-101"/>
                         <div className="relative max-w-md mx-auto">
                         </div>
                         <p className="text-lg text-white/60 mt-4 mx-1 text-center">
@@ -29,7 +29,7 @@ export const Hero = () => {
                 
                 {/* Left col (basicaly my cute pic)*/}
                 <div className="flex justify-center items-center relative border-2 border-purple-900 rounded-2xl h-[500px] w-[50vw] transition-opacity duration-500 hover:scale-101">
-                    <img src="/me4.png" 
+                    <img src="me4.png" 
                     alt="Hero img" 
                     className="w-full h-full object-cover opacity-90 blur-[1px]"/>
                         </div>

@@ -7,6 +7,7 @@ import { fileURLToPath } from 'url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url)) // Added this
 
 export default defineConfig({
+  base: '/Personal-website/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {

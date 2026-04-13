@@ -1,4 +1,4 @@
-import {Button} from "@/components/Button";
+import { Button } from "@/components/Button";
 import { Menu, X } from "lucide-react"
 import { useState } from "react"
 
@@ -15,7 +15,7 @@ export const Navbar = () => {
     return (
         <header className=" z-50 fixed top-0 left-0 right-0 bg-transparent py-5">
 
-        <nav className="container mx-auto px-6 flex intems-center justify-between">
+        <nav className="container mx-auto px-6 flex items-center justify-between">
 
             <a href="#" className="text-xl font-bold tracking-tight hover:text-primary">
                 CU<span className="text-primary">.</span>
@@ -64,6 +64,7 @@ export const Navbar = () => {
                 <Button size="sm">Contact Me </Button>
             </div>
         </div>
+        
         )}
     </header>
     );

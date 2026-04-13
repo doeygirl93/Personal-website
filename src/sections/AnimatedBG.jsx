@@ -4,7 +4,7 @@ export const AnimatedBG = ({children}) => {
             {/* background */}
             <div className="absolute inset-0 z-0 pointer-events-none">
                 <img 
-                src="/bisexual-city.jpg" 
+                src="bisexual-city.jpg" 
                 alt="Hero img" 
                 className="w-full h-full object-cover opacity-90 blur-[4px]"
                 />
@@ -37,6 +37,7 @@ export const AnimatedBG = ({children}) => {
                 <div className="relative z-10 w-full h-full">
                 {children}
             </div>
+            
         </section>
     );
 };
