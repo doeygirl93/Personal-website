@@ -29,7 +29,7 @@ export const Hero = () => {
                 
                 {/* Left col (basicaly my cute pic)*/}
                 <div className="flex justify-center items-center relative border-2 border-purple-900 rounded-2xl h-[500px] w-[50vw] transition-opacity duration-500 hover:scale-101">
-                    <img src="me4.png" 
+                    <img src="me3.jpg" 
                     alt="Hero img" 
                     className="w-full h-full object-cover opacity-90 blur-[1px]"/>
                         </div>
